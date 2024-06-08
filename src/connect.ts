@@ -1,10 +1,10 @@
-import Caver from 'caver-js'
+import Caver from "caver-js";
 
 declare global {
     interface Window {
-        caver?: any
-        klaytn?: any
+        caver?: any;
+        klaytn?: any;
     }
-    }
+}
 
-window.caver = new Caver(window.klaytn)
+window.caver = new Caver(window.klaytn);
