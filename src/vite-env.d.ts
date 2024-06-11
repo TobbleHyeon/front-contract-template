@@ -4,8 +4,9 @@ import Caver from "caver-js";
 
 declare global {
     interface Window {
-        caver?: any;
+        caver: Caver;
         klaytn?: any;
+        Wepin: any;
     }
 }
 
